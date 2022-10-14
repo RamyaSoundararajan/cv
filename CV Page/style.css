@@ -1,0 +1,104 @@
+*
+{
+  padding: 0;
+  margin: 0;
+  
+}
+.loga
+{
+    font-size: 400%;
+}
+
+.row
+{
+    background-image:url("Ramya lastest.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.nav{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+
+.nav li
+{
+    display: inline-block;
+    
+}
+span{
+    color: red;
+}
+.nav li a
+{
+    color: lime;
+    font-size: 150%;
+    text-decoration: none;
+    padding: 6px 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+}
+.nav li a:hover{
+    color: blue;
+    transition: .3s;
+    border: 1px solid black;
+}
+
+
+.content{
+    position: absolute;
+    top: 90%;
+    right: 8%;
+    transform: translateY(-50%);
+
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    gap: 10px;
+    background-color: lightgray;
+    padding: 10px;
+  }
+ 
+h2{
+   color: blue;
+   text-transform: none;
+   font-size: 100;
+   text-align: left;
+}
+
+.about{
+    width: auto;
+    padding: 100px 1px;
+    background-color:lightgoldenrodyellow;
+}
+
+.img{
+    height: auto;
+    width: 50px;
+}
+.about-text{
+    width: 700px;
+    
+}
+.main{
+    width: 800px;
+    max-width: 95%;
+    margin: 0 100px;
+    display: flex;
+    justify-content: space-around;
+}
+@media  screen and (min-width: 480px) {
+    .main{
+        background-color: lightgoldenrodyellow;
+        display: flex;
+    }
+}
+.CV-main{
+    background-color: lightgoldenrodyellow;
+}
+
+.Project-main{
+    background-color: lightgoldenrodyellow;
+}
